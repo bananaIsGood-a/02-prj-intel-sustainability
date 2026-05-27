@@ -257,8 +257,8 @@ body > p {
   }
 
   /* Always show text on mobile (no hover on touch screens) */
-  section div p {
-    max-height: none;
+  section div:active p {
+    max-height: 200px;
     opacity: 1;
   }
 
