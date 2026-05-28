@@ -237,7 +237,15 @@ body > p {
   header {
     padding: 40px 24px 36px;
   }
-
+  section div img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    display: block;
+    background-color: rgba(0, 174, 239, 0.1); /* placeholder tint if image missing */
+  }
   header img {
     width: 100px;
   }
